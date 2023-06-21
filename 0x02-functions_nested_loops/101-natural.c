@@ -1,8 +1,3 @@
-/*
- * File: 101-natural.c
- * Auth: tidi pauline
- */
-
 #include <stdio.h>
 
 /**
@@ -18,7 +13,7 @@ int main(void)
 
 	for (i = 0; i < 1024; i++)
 	{
-		if ((i % 3) == 0 || (i % g) == 0)
+		if ((i % 3) == 0 || (i % 5) == 0)
 			sum += i;
 	}
 	printf("%d\n", sum);
