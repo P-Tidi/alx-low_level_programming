@@ -2,7 +2,7 @@
 
 /**
  * rev_string - Reverses a string
- * @sL Input string
+ * @s: Input string
  * Return: String in reverse
  */
 
