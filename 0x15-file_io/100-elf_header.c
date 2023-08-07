@@ -1,3 +1,8 @@
+/**
+ * File: 100-elf_header.c
+ * Auth: Tidi Pauline
+ */
+
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -118,8 +123,7 @@ void print_data(unsigned char *e_ident)
 void print_version(unsigned char *e_ident)
 {
 	printf(" Version:                           %d",
-			  e_ident[EI_VERSION]);
-
+			e_ident[EI_VERSION]);
 	switch (e_ident[EI_VERSION])
 	{
 	case EV_CURRENT:
