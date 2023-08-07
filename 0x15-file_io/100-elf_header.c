@@ -76,7 +76,7 @@ void print_class(unsigned char *e_ident)
 	case ELFCLASSNONE:
 		printf("none\n");
 		break;
-		case ELFCLASS32:
+	case ELFCLASS32:
 		printf("ELF32\n");
 		break;
 	case ELFCLASS64:
@@ -156,7 +156,7 @@ void print_osabi(unsigned char *e_ident)
 	case ELFOSABI_SOLARIS:
 		printf("UNIX - Solaris\n");
 		break;
-		case ELFOSABI_IRIX:
+	case ELFOSABI_IRIX:
 		printf("UNIX - IRIX\n");
 		break;
 	case ELFOSABI_FREEBSD:
